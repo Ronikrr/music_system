@@ -1,7 +1,10 @@
+import TestimonalCards from "@/components/TestimonalCards";
 import FeaturedSection from "@/components/FeaturedSection";
 import HeroSection from "@/components/HeroSection";
 import WhychooseSection from "@/components/WhychooseSection";
 import React from "react";
+import Upcomingwebinar from "@/components/Upcomingwebinar";
+import Instructers from "@/components/Instructers";
 
 function page() {
   return (
@@ -9,6 +12,9 @@ function page() {
       <HeroSection />
       <FeaturedSection />
       <WhychooseSection />
+      <TestimonalCards />
+      <Upcomingwebinar />
+      <Instructers />
     </main>
   );
 }
