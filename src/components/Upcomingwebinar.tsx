@@ -50,7 +50,7 @@ const projects = [
 
 function Upcomingwebinar() {
   return (
-    <div className="p-12 bg-gray-900 ">
+    <div className="p-2 lg:p-12 bg-gray-900 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
           <h2 className="uppercase text-base text-teal-600 font-semibold tracking-wide">
@@ -65,7 +65,7 @@ function Upcomingwebinar() {
             items={projects.map((webinr) => ({
               title: webinr.title,
               description: webinr.description,
-                link: webinr.link,
+              link: webinr.link,
               logo: webinr.logo,
             }))}
           />
