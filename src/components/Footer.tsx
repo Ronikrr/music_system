@@ -55,7 +55,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex flex-col w-full p-5 lg:p-10 bg-gray-100 dark:bg-gray-900">
+    <div className="flex flex-col w-full p-5 lg:p-10 bg-gray-100 dark:bg-black">
       <div className="flex flex-wrap w-full h-full pt-10 ">
         <div className="w-full md:w-2/4 xl:w-1/4 mb-6">
           <h6 className="text-2xl font-bold mb-4">About Us</h6>
